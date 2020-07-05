@@ -1,0 +1,13 @@
+main: me.Baz.RecipesPlugin.Main
+name: RecipesPlugin
+version: 1.1.11
+author: Baz
+api-version: 1.15
+
+commands:
+  recipes:
+    description: A command to find the different recipes
+    usage: /recipes
+  recipe:
+    description: A command to find a certain recipe
+    usage: /recipe <Recipe Name>
